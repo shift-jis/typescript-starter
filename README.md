@@ -1,29 +1,39 @@
 # Typescript Starter
 
-[![Actions Status](https://github.com/Xetera/typescript-starter/workflows/CI%20Checks/badge.svg)](https://github.com/xetera/typescript-starter/actions)
+Node.js プロジェクト用のスターターです。よく使う TypeScript 関連のツールをあらかじめ組み込んでいます。
 
-![banner](https://d2eip9sf3oo6c2.cloudfront.net/series/covers/000/000/052/full/EGH_Typescript_Plumbing_banner.png?1463413763)
+## ℹ️ このリポジトリについて
 
-Starter Node.js project that includes Typescript tooling I end up installing for most of my Node.js repos.
+このプロジェクトは [Xetera/typescript-starter](https://github.com/Xetera/typescript-starter) をベースに、個人の用途に合わせてカスタマイズしたものです。
 
-## Installation
+## 🚀 セットアップ手順
 
-1. `git clone https://github.com/xetera/typescript-starter project`
-2. `cd project`
-3. `yarn`
-4. `cp .env.example .env`
+1. リポジトリをクローンしプロジェクトディレクトリに移動
+```bash
+git clone https://github.com/RabiesDev/typescript-starter.git project
+cd project
+```
 
-## Included tooling
+2. 依存パッケージをインストール
+```bash
+yarn
+```
 
-- Prettier
-- Eslint
-- Jest
-- Fast Check
-- TS Node
-- Nodemon
-- Docker
+## 🔧 含まれているツール
 
-## Dependencies
+* Prettier (コード整形)
+* ESLint (静的解析)
+* Jest (テスト)
+* fast-check (プロパティベースのテスト)
+* ts-node (TypeScript 実行)
+* Nodemon (自動再起動)
+* Docker (コンテナ化)
 
-- Dotenv
-- Pino
+## 📦 主な依存パッケージ
+
+* [dotenv](https://github.com/motdotla/dotenv) (環境変数の読み込み)
+* [pino](https://github.com/pinojs/pino) (高速ロガー)
+
+## 📄 ライセンス
+
+このプロジェクトは MIT License のもとで公開されています。
