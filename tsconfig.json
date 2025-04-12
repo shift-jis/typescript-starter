@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2024",
+
+        "rootDir": "SourceCode",
+        "outDir": "./Builded",
+
+        "resolveJsonModule": true,
+        "removeComments": true,
+        "sourceMap": false,
+        "strict": true,
+    }
+}
