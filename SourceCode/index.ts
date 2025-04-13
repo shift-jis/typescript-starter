@@ -1,6 +1,8 @@
+import * as yargs from "yargs"
+import pino from "pino"
+
 import "make-promises-safe"
 import "dotenv/config"
-import pino from "pino"
 
 export const logger = pino({
     transport: { target: "pino-pretty" },
@@ -8,7 +10,8 @@ export const logger = pino({
 })
 
 async function main(): Promise<void> {
-    logger.info("Hello World")
+    const args = yargs.options({ verbose: { type: "boolean", default: false } }).parseSync()
+    logger.info(args)
 }
 
 main()

@@ -33,6 +33,7 @@ yarn
 
 * [dotenv](https://github.com/motdotla/dotenv) (環境変数の読み込み)
 * [pino](https://github.com/pinojs/pino) (高速ロガー)
+* [yargs](https://github.com/yargs/yargs) (引数パーサー)
 
 ## 📄 ライセンス
 
