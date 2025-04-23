@@ -1,14 +1,20 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "target": "ES2024",
+        "moduleResolution": "node",
+        "module": "ESNext",
+        "target": "ESNext",
 
-        "rootDir": "SourceCode",
-        "outDir": "./Builded",
+        "rootDir": "./src",
+        "outDir": "./builded",
 
-        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
         "removeComments": true,
         "sourceMap": false,
         "strict": true,
-    }
+
+        "paths": { "@/*": ["./src/*"] }
+    },
+    "exclude": ["node_modules"],
+    "include": ["**/*.ts"]
 }

@@ -1,7 +1,1 @@
-{
-    "objectWrap": "collapse",
-    "printWidth": 100,
-    "useTabs": false,
-    "tabWidth": 4,
-    "semi": false
-}
+{ "objectWrap": "collapse", "printWidth": 160, "useTabs": false, "tabWidth": 4, "semi": false }

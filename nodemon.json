@@ -1,5 +1,1 @@
-{
-    "exec": "tsc --incremental && node Builded/index.js",
-    "ext": "src/*.ts,.env",
-    "verbose": true
-}
+{ "exec": "tsc --incremental && node builded/index.js --verbose", "ext": "src/*.ts,.env", "verbose": true }

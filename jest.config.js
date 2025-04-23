@@ -4,5 +4,5 @@ module.exports = {
     automock: false,
     collectCoverage: true,
     reporters: ["default", "jest-junit"],
-    testPathIgnorePatterns: ["Builded/.*"],
+    testPathIgnorePatterns: ["builded/.*"],
 }
