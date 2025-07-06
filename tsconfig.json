@@ -1,20 +1,24 @@
 {
     "compilerOptions": {
-        "moduleResolution": "node",
-        "module": "ESNext",
         "target": "ESNext",
+        "lib": ["ESNext"],
+
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
 
         "rootDir": "./src",
         "outDir": "./builded",
 
-        "esModuleInterop": true,
-        "skipLibCheck": true,
         "removeComments": true,
+        "skipLibCheck": true,
         "sourceMap": false,
         "strict": true,
 
         "paths": { "@/*": ["./src/*"] }
     },
     "exclude": ["node_modules"],
-    "include": ["**/*.ts"]
+    "include": ["src/**/*.ts"]
 }
