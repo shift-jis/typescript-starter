@@ -1,42 +1,22 @@
 # Typescript Starter
+This is a starter for Node.js projects. It comes with commonly used TypeScript-related tools pre-configured.
 
-Node.js プロジェクト用のスターターです。よく使う TypeScript 関連のツールをあらかじめ組み込んでいます。
+## ℹ️ About this repository
+This project is a customized version of [Xetera/typescript-starter](https://github.com/Xetera/typescript-starter) for personal use.
 
-## ℹ️ このリポジトリについて
-
-このプロジェクトは [Xetera/typescript-starter](https://github.com/Xetera/typescript-starter) をベースに、個人の用途に合わせてカスタマイズしたものです。
-
-## 🚀 セットアップ手順
-
-1. リポジトリをクローンしプロジェクトディレクトリに移動
+## 🚀 Setup
+1. Clone the repository and move into the project directory
 
 ```bash
 git clone https://github.com/RabiesDev/typescript-starter.git project
 cd project
 ```
 
-2. 依存パッケージをインストール
+2. Install dependencies
 
 ```bash
 yarn
 ```
 
-## 🔧 含まれているツール
-
-- Prettier (コード整形)
-- ESLint (静的解析)
-- Jest (テスト)
-- fast-check (プロパティベースのテスト)
-- ts-node (TypeScript 実行)
-- Nodemon (自動再起動)
-- Docker (コンテナ化)
-
-## 📦 主な依存パッケージ
-
-- [dotenv](https://github.com/motdotla/dotenv) (環境変数の読み込み)
-- [pino](https://github.com/pinojs/pino) (高速ロガー)
-- [yargs](https://github.com/yargs/yargs) (引数パーサー)
-
-## 📄 ライセンス
-
-このプロジェクトは MIT License のもとで公開されています。
+## 📄 License
+This project is released under the MIT License.
