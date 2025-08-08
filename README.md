@@ -8,7 +8,7 @@ This project is a customized version of [Xetera/typescript-starter](https://gith
 1. Clone the repository and move into the project directory
 
 ```bash
-git clone https://github.com/RabiesDev/typescript-starter.git project
+git clone https://github.com/shift-jis/typescript-starter.git project
 cd project
 ```
 
