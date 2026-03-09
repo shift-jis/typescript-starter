@@ -2,7 +2,6 @@ import { hideBin } from "yargs/helpers"
 import yargs from "yargs"
 import pino from "pino"
 
-import "make-promises-safe"
 import "dotenv/config"
 
 export const logger = pino({ transport: { target: "pino-pretty" }, timestamp: pino.stdTimeFunctions.isoTime })
